@@ -1,0 +1,14 @@
+<%% heading "Show #{singular_name.titleize}" %>
+
+<p>
+	<%%= link_to "&larr; Back", <%= plural_name %>_path %> | 
+	<%%= link_to "Edit", edit_<%= singular_name %>_path(@<%= singular_name %>) %> |
+  <%%= link_to "Delete", @<%= singular_name %>, :confirm => 'Are you sure?', :method => :delete %>
+</p>
+
+<%- for attribute in attributes -%>
+<p>
+  <strong><%= attribute.column.human_name.titleize %>:</strong>
+  <%%=h @<%= singular_name %>.<%= attribute.name %> %>
+</p>
+<%- end -%>

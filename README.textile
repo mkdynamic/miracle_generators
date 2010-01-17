@@ -1,0 +1,11 @@
+h1. Miracle Generators
+
+A simple Rails scaffold generator.
+
+h2. Install
+
+  gem install miracle-generators
+
+h2. Usage
+
+Run `script/generate miracle_scaffold` from your Rails project root for usage instructions.

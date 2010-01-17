@@ -1,0 +1,11 @@
+<% semantic_form_for @<%= singular_name %> do |form| %>
+	<%%= form.error_messages %>
+	
+	<%% form.inputs do %>
+	<%- for attribute in attributes -%>
+		<%%= form.input :<%= attribute.name %> %>
+	<%- end -%>
+	<%% end %>
+		
+	<%%= form.buttons %>
+<% end %>
