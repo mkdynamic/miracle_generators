@@ -1,0 +1,2 @@
+module MiracleGenerators
+end

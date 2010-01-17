@@ -1,4 +1,4 @@
-<%% heading "#{plural_name.titleize}" %>
+<%% heading "<%= plural_name.titleize %>" %>
 
 <p>
 	<%%= link_to "New <%= singular_name.titleize %>", new_<%= singular_name %>_path %>
@@ -10,6 +10,7 @@
 	  <%- for attribute in attributes -%>
 	    <th><%= attribute.column.human_name.titleize %></th>
 	  <%- end -%>
+			<th colspan="3">Actions</th>
 	  </tr>
 	</thead>
 	<tbody id="<%= plural_name %>">
