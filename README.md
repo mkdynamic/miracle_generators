@@ -15,3 +15,7 @@ Run `script/generate miracle_scaffold` from your Rails project root for usage in
 ## Credits
 
 Written by Mark Dodwell ([@madeofcode](http://twitter.com/madeofcode))
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mkdynamic/miracle_generators/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
